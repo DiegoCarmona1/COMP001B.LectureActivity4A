@@ -1,4 +1,6 @@
-let myGrade = 65;
+// if, if--else, else statement
+
+let myGrade = 90;
 
 if (myGrade >= 90) {
     console.log("A")
@@ -13,4 +15,10 @@ if (myGrade >= 90) {
 }
 
 
-
+//switch
+switch (myGrade) {
+    case 90: console.log("A")
+        break;
+    case 80: console.log("B")
+        break;
+}
